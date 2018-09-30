@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictionary</title>
+</head>
+<body>
+<script>
+    var eng = ['dog','cat','pig','lion','bee','tiger','bear'];
+    var vie = ['chó','mèo','lợn','sư tử','ong','hổ','gấu'];
+    var input = prompt("Enter the english word:");
+    for (i = 0; i < eng.length; i++) {
+        if (input === eng[i]) {
+            var index = i;
+            alert(eng[i] + '  mean: ' + vie[i]);
+            break;
+        }else {
+            alert("I\'m sorry, we don\'t have this word");
+        }
+    }
+
+
+
+</script>
+</body>
+</html>
